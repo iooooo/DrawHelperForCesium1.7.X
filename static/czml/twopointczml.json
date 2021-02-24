@@ -1,0 +1,39 @@
+[{
+    "id" : "document",
+    "name" : "CZML Position Definitions",
+    "version" : "1.0"
+}, {
+    "id" : "point1",
+    "name": "point in cartographic degrees",
+    "position" : {
+        "cartographicDegrees" : [-119,35.1219512195122,0]
+    },
+    "point": {
+        "color": {
+            "rgba": [100, 0, 200, 255]
+        },
+        "outlineColor": {
+            "rgba": [200, 0, 200, 255]
+        },
+        "pixelSize": {
+            "number": 10
+        }
+    }
+}, {
+    "id" : "point2",
+    "name": "point in cartesian coordinates",
+    "position" : {
+        "cartographicDegrees" : [-79,40,0]
+    },
+    "point": {
+        "color": {
+            "rgba": [0, 100, 200, 255]
+        },
+        "outlineColor": {
+            "rgba": [200, 0, 200, 255]
+        },
+        "pixelSize": {
+            "number": 10
+        }
+    }
+}]

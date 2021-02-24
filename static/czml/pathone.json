@@ -1,0 +1,57 @@
+[{
+    "id": "document",
+    "name": "CZML Path",
+    "version": "1.0",
+    "clock": {
+        "interval": "2017-07-11T00:00:00Z/2017-07-11T00:06:00Z",
+        "currentTime": "2017-07-11T00:00:00Z",
+        "multiplier": 10
+    }
+}, {
+    "id": "path",
+    "name": "path with GPS flight data",
+    "description": "<p>Hang gliding flight log data from Daniel H. Friedman.<br>Icon created by Larisa Skosyrska from the Noun Project</p>",
+    "availability": "2017-07-11T00:00:00Z/2017-07-11T00:06:00Z",
+    "path": {
+        "material": {
+            "polylineOutline": {
+                "color": {
+                    "rgba": [255, 0, 255, 255]
+                },
+                "outlineColor": {
+                    "rgba": [0, 255, 255, 255]
+                },
+                "outlineWidth": 5
+            }
+        },
+        "width": 8,
+        "leadTime": 0,
+        "trailTime": 100000, 
+        "resolution": 5
+    },
+    "ellipse": { 
+        "semiMinorAxis": 500.0,
+        "semiMajorAxis": 230.0,
+        "height": 0,
+        "material": {
+            "solidColor": {
+                "color": {
+                    "rgba": [255, 0, 0, 127]
+                }
+            }
+        },
+        "outline": true, 
+        "outlineColor": { 
+            "rgba": [255, 255, 255, 255]
+        }
+    },
+    "position": {
+        "epoch": "2012-08-04T10:00:00Z",
+        "cartographicDegrees": [
+            0.0, 118.87841653400005, 30.95679870500004, 0.0,
+            10.0, 118.87826541800007, 30.95680770900003, 0.0,
+            20.0, 118.8774481050001, 30.956860625000047, 0.0,
+            30.0, 118.87660414600009, 30.956910105000077, 0.0
+        ]
+    }
+}]

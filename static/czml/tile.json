@@ -1,0 +1,10 @@
+[{
+    "id" : "document",
+    "version" : "1.0"
+}, {
+    "id" : "BatchedColors",
+    "name" : "BatchedColors",
+    "tileset": {
+        "uri" : "../Apps/SampleData/Cesium3DTiles/Batched/BatchedColors/tileset.json"
+    }
+}]

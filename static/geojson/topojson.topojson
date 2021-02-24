@@ -1,0 +1,17 @@
+{
+    "type": "Feature",
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            0.0,
+            0.0
+        ]
+    },
+    "properties": {
+        "title": "",
+        "marker-symbol": "0",
+        "marker-symbol": "f",
+        "marker-symbol": "bus",
+        "marker-color": "#B9EB14"
+    }
+}

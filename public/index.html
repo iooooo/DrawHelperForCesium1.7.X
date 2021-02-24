@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- <link rel="stylesheet" href="Cesium/Widgets/widgets.css"> -->
+
+
+    <link href="lib/cesium/Widgets/widgets.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="lib/layui/css/layui.css" rel="stylesheet" />
+ <style>
+        html, body, #cesiumContainer {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .cesium-viewer-bottom {
+            display: none;
+        }
+
+        #toolbar {
+            position: absolute;
+            top: 0px;
+            left: 0;
+            display: inline;
+            margin: 10px;
+            padding: 0px;
+            background: white;
+        }
+
+        #loggingText {
+            position: absolute;
+            bottom: 35px;
+            right: 0;
+            display: inline;
+            margin: 10px;
+            padding: 10px;
+            background: white;
+        }
+    </style>
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/turf/turf.min.js"></script>
+    <script type="text/javascript" src="lib/layui/layui.all.js"></script>
+    <script type="text/javascript" src="lib/cesium/Cesium.js"></script>
+    <script type="text/javascript" src="lib/cesium/plotUtil.js"></script>
+    <script type="text/javascript" src="lib/cesium/algorithm.js"></script>
+    <script type="text/javascript" src="lib/cesium/GlobeTooltip.js"></script>
+    <script type="text/javascript" src="lib/cesium/GlobePolygonDrawer.js"></script>
+    <script type="text/javascript" src="lib/cesium/GlobePolylineDrawer.js"></script>
+    <script type="text/javascript" src="lib/cesium/GlobeRectangleDrawer.js"></script>
+    <script type="text/javascript" src="lib/cesium/GlobeCircleDrawer.js"></script>
+    <script type="text/javascript" src="lib/cesium/GlobePointDrawer.js"></script>
+    <script type="text/javascript" src="lib/cesium/GlobeBufferLineDrawer.js"></script>
+    <script type="text/javascript" src="lib/cesium/GlobePointMeasure.js"></script>
+    <script type="text/javascript" src="lib/cesium/GlobePolylineSpaceMeasure.js"></script>
+    <script type="text/javascript" src="lib/cesium/GlobePolylineStickMeasure.js"></script>
+    <script type="text/javascript" src="lib/cesium/GlobePolygonMeasure.js"></script>
+    <script type="text/javascript" src="lib/cesium/PlotStraightArrowDrawer.js"></script>
+    <script type="text/javascript" src="lib/cesium/PlotAttackArrowDrawer.js"></script>
+    <script type="text/javascript" src="lib/cesium/PlotPincerArrowDrawer.js"></script>
+    <script type="text/javascript" src="lib/cesium/GlobeTracker.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  </head>
+  <body>
+  <!-- <script src="Cesium/Cesium.js"></script> -->
+    <div id="app"></div>
+  </body>
+</html>

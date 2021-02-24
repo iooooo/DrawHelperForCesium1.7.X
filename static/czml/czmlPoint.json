@@ -1,0 +1,22 @@
+[{
+    "id" : "document",
+    "name" : "CZML Position Definitions",
+    "version" : "1.0"
+}, {
+    "id" : "point1",
+    "name": "point in cartographic degrees",
+    "position" : {
+        "cartographicDegrees" : [-90, 0, 0.0]
+    },
+    "point": {
+        "color": {
+            "rgba": [255, 0, 0, 255]
+        },
+        "outlineColor": {
+            "rgba": [255, 0, 0, 255]
+        },
+        "pixelSize": {
+            "number": 6
+        }
+    }
+}]
